@@ -1,38 +1,38 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chart-container {
+  height: 50vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.averages-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+p.avg {
+  border: 8px solid;
+
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  vertical-align: middle;
   align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p.avg.humidity {
+  color: rgba(106, 127, 219, 1);
+  border-color: rgba(106, 127, 219, 1);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p.avg.gas {
+  color: rgba(224, 141, 172, 1);
+  border-color: rgba(224, 141, 172, 1);
+}
+p.avg.temperature {
+  color: rgba(87, 226, 229, 1);
+  border-color: rgba(87, 226, 229, 1);
 }

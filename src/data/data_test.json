@@ -1,0 +1,32 @@
+[
+    {
+        "temperature": 24,
+        "humidity": 74,
+        "gas": 69,
+        "timestamp": "2022-05-05 20:37:16"
+    },
+    {
+        "temperature": 24,
+        "humidity": 74,
+        "gas": 66,
+        "timestamp": "2022-05-05 20:37:25"
+    },
+    {
+        "temperature": 24,
+        "humidity": 74,
+        "gas": 66,
+        "timestamp": "2022-05-05 20:37:33"
+    },
+    {
+        "temperature": 24,
+        "humidity": 74,
+        "gas": 66,
+        "timestamp": "2022-05-05 20:37:42"
+    },
+    {
+        "temperature": 24.1,
+        "humidity": 74,
+        "gas": 73,
+        "timestamp": "2022-05-05 20:37:54"
+    }
+]
